@@ -68,7 +68,10 @@ th {
 td {
     text-align: center;
 }
-
+#line{
+    height: 0.1vh;
+    background-color: black;
+}
 table {
     width: 30vw;
     background-color: white;
@@ -98,4 +101,25 @@ h1,
 p,
 strong {
     background-color: white
+}
+#soup{
+    height: 20vh;
+    width: 10vw;
+    margin-top: -4vh;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+}
+#m{
+    background-color:rgb(178, 236, 98);
+}
+#name{
+    background-color: rgb(178, 236, 98);
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu{
+    margin-top: -1vh;
 }

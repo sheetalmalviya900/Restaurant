@@ -27,6 +27,17 @@ export default function App() {
   }
   return (
     <div>
+      <div id="header">
+        <img id="soup" src='https://www.themealdb.com/images/meal-icon.png' alt=""/>
+        <h1 id="name">
+          Sheetal Restaurant
+        </h1>
+        <img id="soup" src='https://www.themealdb.com/images/meal-icon.png' alt=""/>
+      </div>
+      <div id="menu">
+        <h2>Availabe Meal</h2>
+        <p id="m">Side, Seafood, Vegetarian, Miscellaneous, Pasta, Dessert, Pork, Beef, Lamb, Chicken</p>
+      </div>
       <div>
         <input placeholder='Search Your item...' value={search} onChange={(e) => {
           setSearch(e.target.value)
@@ -38,6 +49,7 @@ export default function App() {
         <button id="invoice" onClick={() => {
           setFlag(false)
         }}>Invoice</button>
+        <hr id='line'/>
       </div>
       {
         flag ? (() => {
