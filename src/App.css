@@ -1,0 +1,101 @@
+* {
+    background-color: rgb(178, 236, 98);
+}
+
+img {
+    width: 30vw;
+    height: 50vh;
+    margin-top: 9vh;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1vh;
+    margin-left: 2.5vw;
+}
+
+input {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 4vh;
+    margin-top: 2vh;
+    background-color: white;
+    border: none;
+    border-radius: 1vh;
+}
+
+#search,
+#invoice {
+    width: 10vw;
+    height: 4.8vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border: none;
+    border-radius: 1vh;
+    background-color: white;
+}
+
+#invoice {
+    margin-left: 50vw;
+}
+
+#search:hover,
+#add:hover,
+#invoice:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+#add {
+    width: 8vw;
+    height: 4.8vh;
+    margin-top: -1vh;
+    background-color: white;
+    border: none;
+}
+
+h4 {
+    margin-top: -1vh;
+}
+
+td,
+th {
+    border: 2px solid black;
+    background-color: white
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    width: 30vw;
+    background-color: white;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+
+}
+
+#Invoice {
+    border: 2px double white;
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: 35vw;
+    border-radius: 1vw;
+    background-color: white;
+}
+
+#head {
+    background-color: white;
+}
+h1{
+    text-align: center;
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1,
+p,
+strong {
+    background-color: white
+}
